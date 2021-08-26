@@ -456,6 +456,7 @@ html {
 }
 
 .project-card-view {
+  font-family: 'Ubuntu';font-size: 18px;
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
@@ -514,15 +515,11 @@ html {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
+  background-color: #C36EEC !important;
+  border-radius: 40px !important;
   border-color: #623686 !important;
 }
 
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
-}
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;

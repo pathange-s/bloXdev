@@ -457,7 +457,7 @@ html {
 
 .project-card-view {
   font-family: 'Ubuntu';font-size: 18px;
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 50px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -465,9 +465,9 @@ html {
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.03) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  
 }
 
 .blog-card {

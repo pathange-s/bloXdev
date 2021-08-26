@@ -9,20 +9,20 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ textAlign: "left", color: "#C36EEC" }} >{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title style={{ color: "#C36EEC", }} >{props.title}</Card.Title>
+        <Card.Text style={{ textAlign: "justify", marginTop: "-7px", marginBottom: "10px" }}>
           {props.description}
         </Card.Text>
-        <Card.Text style={{ textAlign: "justify" }}>
-          <BiCalendarCheck style={{ marginRight: "10px", width: "25px", height: "25px" }} />
+        <Card.Text style={{ textAlign: "justify", marginTop: "7px", marginBottom: "7px" }}>
+          <BiCalendarCheck style={{ marginRight: "10px", width: "25px", height: "25px", marginTop: "-3px", marginBottom: "2px" }} />
           {props.datetime}
         </Card.Text>
 
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify", marginTop: "7px", marginBottom: "7px" }}>
           <GoLocation style={{ marginRight: "10px", width: "25px", height: "25px" }} />
           {props.location}
         </Card.Text>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text style={{ textAlign: "justify", marginTop: "7px", marginBottom: "7px" }}>
           <img src={price} alt="price" style={{ marginRight: "10px", width: "25px", height: "25px" }} />
           {props.price}
         </Card.Text>

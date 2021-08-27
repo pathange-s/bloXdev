@@ -470,6 +470,28 @@ html {
   
 }
 
+.ticket-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+.ticket-card-view {
+  font-family: 'Ubuntu';font-size: 18px;
+  box-shadow: 0 4px 50px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color:  #1e5799 !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.ticket-card-view:hover {
+  transform: scale(1.03) !important;
+  overflow: hidden !important;
+  
+}
+
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -542,20 +564,38 @@ html {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
+.collectibles{
+  font-size: 1.5em !important;
 
+  width:10em !important;
+  height:7.5em;
+  display: flex;
+  position:relative;
+  
+}
+.collectibles-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 1.5em !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  /* border-radius: 5px !important; */
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  width:10em !important;
+  height:7.5em;
+  background-image: url(./Assets/Tickets/ticket2.png) !important;
+
 }
 
 @media (max-width: 767px) {

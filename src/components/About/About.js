@@ -2,10 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+import Techstack from "./UsedTickets";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import UsedTickets from "./UsedTickets";
+import UnusedTickets from "./UnusedTickets";
+import ticket2 from "../../Assets/Tickets/ticket2.png";
 
 function About() {
   return (
@@ -34,18 +37,49 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+       
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Your <strong className="purple">Tickets </strong>
         </h1>
 
-        <Techstack />
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col xs={4} md={4} className="ticket-card">
+            <UnusedTickets
+              imgPath={ticket2}
+              isBlog={false}
+              title="Ticket #01"
+              description="A long description about the event like artists, etc or other details in about 3-4 lines."
+              datetime="5:40 | 23-06-2003"
+              location="Afghanisthan"
+              price="500 SOL"
+              link="https://github.com/soumyajit4419/Plant_AI"
+            />
+          </Col>
+          <Col xs={4} md={4} className="ticket-card">
+            <UnusedTickets
+              imgPath={ticket2}
+              isBlog={false}
+              title="Ticket #01"
+              description="A long description about the event like artists, etc or other details in about 3-4 lines."
+              datetime="5:40 | 23-06-2003"
+              location="Afghanisthan"
+              price="500 SOL"
+              link="https://github.com/soumyajit4419/Plant_AI"
+            />
+          </Col>
+          </Row>
+          <h1 className="project-heading">
+          Your <strong className="purple">Collectibles </strong>
+        </h1>
 
+        <UsedTickets />
+{/* 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Toolstack /> */}
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

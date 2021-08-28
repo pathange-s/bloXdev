@@ -18,7 +18,7 @@ function Tickets() {
           Top Selling Tickets on the market
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}
@@ -30,7 +30,7 @@ function Tickets() {
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}
@@ -42,7 +42,7 @@ function Tickets() {
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}
@@ -54,7 +54,7 @@ function Tickets() {
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}
@@ -66,7 +66,7 @@ function Tickets() {
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}
@@ -78,7 +78,7 @@ function Tickets() {
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
-          <Col md={4} className="project-card">
+          <Col xs={4} md={4} className="project-card">
             <ProjectCard
               imgPath={ticket2}
               isBlog={false}

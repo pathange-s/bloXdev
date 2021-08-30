@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import logo from "../../Assets/logo.svg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -16,7 +17,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> YOU TO SOLANA BLOCKCHAIN BASED COLLECTABLE NFTs
+              Ticket <span className="purple"> Ible </span> 
             </h1>
             <p className="home-about-body">
               Blockchain is a specific type of database. It differs from a typical database in the way it stores information.
@@ -38,55 +39,9 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={logo} className="img-fluid" alt="logo" />
             </Tilt>
-          </Col>
-        </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Other references to be given</h1>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://google.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
+            
           </Col>
         </Row>
       </Container>

@@ -16,52 +16,8 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Solana Blockchain</h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>NFT Collections</h3>
-        </Col>
         <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://google.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://google.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://google.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://google.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
+          <h3>NFT Collections</h3>
         </Col>
       </Row>
     </Container>

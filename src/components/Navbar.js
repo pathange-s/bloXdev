@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { MdAccountBalanceWallet } from "react-icons/md";
 import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
@@ -102,14 +102,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
+            <Nav.Item className="wallet-btn">
+              <a href="https://www.google.com/">
+                <Button
+                  target="_blank"
+                  className="wallet-btn-inner"
+                >
+                  <MdAccountBalanceWallet style={{ fontSize: "1.6em" }} />{" "}
+                </Button>
+              </a>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
